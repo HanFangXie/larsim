@@ -66,7 +66,7 @@ cet_find_library( BOOST_DATE_TIME     NAMES boost_date_time     PATHS ENV BOOST_
 #
 find_library( CRY NAMES CRY PATHS $ENV{CRYHOME}/lib NO_DEFAULT_PATH )
 
-list(APPEND CMAKE_PREFIX_PATH "~/bxdecay0/bin/")
+list(APPEND CMAKE_PREFIX_PATH "~plasorak/bxdecay0/bin/")
 find_package(BxDecay0 1.0 CONFIG)
 
 # genie (copied from nugen)
